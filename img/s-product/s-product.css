@@ -1,0 +1,26 @@
+.carousel-navigation .carousel-prev-button {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+  color: #000;
+  font-size: 25px;
+}
+.carousel-navigation .carousel-next-button {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+  color: #000;
+  font-size: 25px;
+}
+
+.carousel-navigation .carousel-next-button:hover,
+.carousel-navigation .carousel-prev-button:hover{
+  background-color: transparent;
+  font-size: 30;
+}
