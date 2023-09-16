@@ -1,0 +1,51 @@
+#page-header.about-header {
+  background-image: url("../img/about/aboutBanner.png");
+}
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+#about-head div {
+  padding-left: 40px;
+}
+h1 a {
+  color: rgb(190, 94, 190);
+}
+
+#about-app .video {
+  width: 70%;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .video video{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+
+
+@media (max-width:477px){
+    #about-head{
+        flex-direction: column;
+
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        padding-left: 0px;
+    }
+    #about-app .video {
+        width: 100%;
+        height: auto;
+    }
+}
